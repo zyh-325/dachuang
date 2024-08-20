@@ -1,0 +1,9 @@
+SSL:   0%|                                                                                    | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    ssl_loss = barlow_train(args, model, unlabel_dl, barlow_optimizer, epoch)
+  File "D:\FG-SSL-main\learner\train.py", line 26, in barlow_train
+    barlow_loss_1 = barlow_criterion(x_ft_1, y_ft_1)
+  File "D:\FG-SSL-main\utils\setting.py", line 73, in barlow_criterion
+    loss = (crossCorMat * lmbd - torch.eye(emb, device=device) * lmbd).pow(2)
+NameError: name 'lmbd' is not defined

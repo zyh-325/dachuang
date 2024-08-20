@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-08-20T02:22:58.244432",
+    "startedAt": "2024-08-20T02:22:51.806313",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--seed",
+        "0",
+        "--model",
+        "pmg",
+        "--patches",
+        "32",
+        "16",
+        "8",
+        "--dataset",
+        "aptos"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "HUAWEI-Z",
+    "username": "HUAWEI",
+    "executable": "D:\\666\\envs\\pytorch\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2000.0,
+        "min": 0.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 664.7939414978027,
+            "used": 367.4836769104004
+        }
+    },
+    "memory": {
+        "total": 15.733024597167969
+    }
+}

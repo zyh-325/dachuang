@@ -1,0 +1,93 @@
+wandb_version: 1
+
+seed:
+  desc: null
+  value: 0
+model:
+  desc: null
+  value: pmg
+patches:
+  desc: null
+  value:
+  - 32
+  - 16
+  - 8
+table:
+  desc: null
+  value:
+  - 8
+  - 4
+  - 2
+  - 1
+dataset:
+  desc: null
+  value: aptos
+beta:
+  desc: null
+  value: 1
+cut_prob:
+  desc: null
+  value: -1.1
+resize:
+  desc: null
+  value: 256
+centercrop:
+  desc: null
+  value: 224
+featdim:
+  desc: null
+  value: 512
+epochs:
+  desc: null
+  value: 1000
+batchsize:
+  desc: null
+  value: 64
+lr:
+  desc: null
+  value: 0.01
+momentum:
+  desc: null
+  value: 0.9
+weight_decay:
+  desc: null
+  value: 0.0005
+device:
+  desc: null
+  value: cpu
+num_classes:
+  desc: null
+  value: 5
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.19
+    cli_version: 0.17.7
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    start_time: 1724135072
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.8.19
+      5: 0.17.7
+      8:
+      - 2
+      - 3
+      - 5
+      13: windows-amd64

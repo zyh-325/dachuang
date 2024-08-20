@@ -1,0 +1,27 @@
+SSL:   0%|                                                                                    | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    ssl_loss = barlow_train(args, model, unlabel_dl, barlow_optimizer, epoch)
+  File "D:\FG-SSL-main\learner\train.py", line 17, in barlow_train
+    for img_1, table_1_img, table_2_img, table_3_img, img_2 in tqdm(unlabel_dl, desc = "barlowtwins train", position = 1, leave = False):
+  File "D:\666\envs\pytorch\lib\site-packages\tqdm\std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "D:\666\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "D:\666\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 1346, in _next_data
+    return self._process_data(data)
+  File "D:\666\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 1372, in _process_data
+    data.reraise()
+  File "D:\666\envs\pytorch\lib\site-packages\torch\_utils.py", line 705, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\666\envs\pytorch\lib\site-packages\torch\utils\data\_utils\worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+  File "D:\666\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\666\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\FG-SSL-main\dataset\aptos.py", line 40, in __getitem__
+    table_1, table_2, table_3 = self.table_1[table_label_0], self.table_2[table_label_1], self.table_3[table_label_2]
+TypeError: 'NoneType' object is not subscriptable

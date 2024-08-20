@@ -1,0 +1,28 @@
+2024-08-20 11:25:01,180 INFO    MainThread:27472 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_setup.py:_flush():76] Configure stats pid to 27472
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_setup.py:_flush():76] Loading settings from C:\Users\30293\.config\wandb\settings
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_setup.py:_flush():76] Loading settings from D:\FG-SSL-main\wandb\settings
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\FG-SSL-main\\main.py', 'program': 'main.py'}
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_init.py:_log_setup():524] Logging user logs to D:\FG-SSL-main\wandb\run-20240820_112501-eb74dfhl\logs\debug.log
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_init.py:_log_setup():525] Logging internal logs to D:\FG-SSL-main\wandb\run-20240820_112501-eb74dfhl\logs\debug-internal.log
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_init.py:init():607] calling init triggers
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {'seed': 0, 'model': 'pmg', 'patches': [32, 16, 8], 'table': [8, 4, 2, 1], 'dataset': 'aptos', 'beta': 1, 'cut_prob': -1.1, 'resize': 256, 'centercrop': 224, 'featdim': 512, 'epochs': 1000, 'batchsize': 64, 'lr': 0.01, 'momentum': 0.9, 'weight_decay': 0.0005, 'device': device(type='cpu'), 'num_classes': 5}
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_init.py:init():657] starting backend
+2024-08-20 11:25:01,181 INFO    MainThread:27472 [wandb_init.py:init():661] setting up manager
+2024-08-20 11:25:01,185 INFO    MainThread:27472 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-08-20 11:25:01,187 INFO    MainThread:27472 [wandb_init.py:init():669] backend started and connected
+2024-08-20 11:25:01,190 INFO    MainThread:27472 [wandb_init.py:init():764] updated telemetry
+2024-08-20 11:25:01,191 INFO    MainThread:27472 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2024-08-20 11:25:02,788 INFO    MainThread:27472 [wandb_run.py:_on_init():2479] communicating current version
+2024-08-20 11:25:07,798 INFO    MainThread:27472 [wandb_run.py:_on_init():2488] got version response 
+2024-08-20 11:25:07,799 INFO    MainThread:27472 [wandb_init.py:init():848] starting run threads in backend
+2024-08-20 11:25:11,437 INFO    MainThread:27472 [wandb_run.py:_console_start():2457] atexit reg
+2024-08-20 11:25:11,437 INFO    MainThread:27472 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2024-08-20 11:25:11,437 INFO    MainThread:27472 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2024-08-20 11:25:11,439 INFO    MainThread:27472 [wandb_run.py:_redirect():2393] Redirects installed.
+2024-08-20 11:25:11,441 INFO    MainThread:27472 [wandb_init.py:init():891] run started, returning control to user process
+2024-08-20 11:25:46,322 WARNING MsgRouterThr:27472 [router.py:message_loop():77] message_loop has been closed
