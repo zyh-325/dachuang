@@ -37,7 +37,7 @@ conda install pytorch==1.13.0 torchvision==0.6.0 cudatoolkit=10.1 (10.2) -c pyto
   - run.sh                : shell Script Version (pretraining, training, inference)
   - main.py               : Main Execution (Args, Setting)
   - dataset               : Augmentation, DataLoader
-      - ...
+      - data
   - learner               : training, inference 
       - ...
   - utils                 : Metrics, Jigsaw Setting (Metric, jigsaw Patch Setting)
